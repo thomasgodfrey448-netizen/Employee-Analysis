@@ -1,0 +1,183 @@
+    0: \x80 PROTO      4
+    2: \x95 FRAME      375
+   11: \x8c SHORT_BINUNICODE 'sklearn.pipeline'
+   29: \x94 MEMOIZE    (as 0)
+   30: \x8c SHORT_BINUNICODE 'Pipeline'
+   40: \x94 MEMOIZE    (as 1)
+   41: \x93 STACK_GLOBAL
+   42: \x94 MEMOIZE    (as 2)
+   43: )    EMPTY_TUPLE
+   44: \x81 NEWOBJ
+   45: \x94 MEMOIZE    (as 3)
+   46: }    EMPTY_DICT
+   47: \x94 MEMOIZE    (as 4)
+   48: (    MARK
+   49: \x8c     SHORT_BINUNICODE 'steps'
+   56: \x94     MEMOIZE    (as 5)
+   57: ]        EMPTY_LIST
+   58: \x94     MEMOIZE    (as 6)
+   59: (        MARK
+   60: \x8c         SHORT_BINUNICODE 'scaler'
+   68: \x94         MEMOIZE    (as 7)
+   69: \x8c         SHORT_BINUNICODE 'sklearn.preprocessing._data'
+   98: \x94         MEMOIZE    (as 8)
+   99: \x8c         SHORT_BINUNICODE 'StandardScaler'
+  115: \x94         MEMOIZE    (as 9)
+  116: \x93         STACK_GLOBAL
+  117: \x94         MEMOIZE    (as 10)
+  118: )            EMPTY_TUPLE
+  119: \x81         NEWOBJ
+  120: \x94         MEMOIZE    (as 11)
+  121: }            EMPTY_DICT
+  122: \x94         MEMOIZE    (as 12)
+  123: (            MARK
+  124: \x8c             SHORT_BINUNICODE 'with_mean'
+  135: \x94             MEMOIZE    (as 13)
+  136: \x88             NEWTRUE
+  137: \x8c             SHORT_BINUNICODE 'with_std'
+  147: \x94             MEMOIZE    (as 14)
+  148: \x88             NEWTRUE
+  149: \x8c             SHORT_BINUNICODE 'copy'
+  155: \x94             MEMOIZE    (as 15)
+  156: \x88             NEWTRUE
+  157: \x8c             SHORT_BINUNICODE 'feature_names_in_'
+  176: \x94             MEMOIZE    (as 16)
+  177: \x8c             SHORT_BINUNICODE 'joblib.numpy_pickle'
+  198: \x94             MEMOIZE    (as 17)
+  199: \x8c             SHORT_BINUNICODE 'NumpyArrayWrapper'
+  218: \x94             MEMOIZE    (as 18)
+  219: \x93             STACK_GLOBAL
+  220: \x94             MEMOIZE    (as 19)
+  221: )                EMPTY_TUPLE
+  222: \x81             NEWOBJ
+  223: \x94             MEMOIZE    (as 20)
+  224: }                EMPTY_DICT
+  225: \x94             MEMOIZE    (as 21)
+  226: (                MARK
+  227: \x8c                 SHORT_BINUNICODE 'subclass'
+  237: \x94                 MEMOIZE    (as 22)
+  238: \x8c                 SHORT_BINUNICODE 'numpy'
+  245: \x94                 MEMOIZE    (as 23)
+  246: \x8c                 SHORT_BINUNICODE 'ndarray'
+  255: \x94                 MEMOIZE    (as 24)
+  256: \x93                 STACK_GLOBAL
+  257: \x94                 MEMOIZE    (as 25)
+  258: \x8c                 SHORT_BINUNICODE 'shape'
+  265: \x94                 MEMOIZE    (as 26)
+  266: K                    BININT1    5
+  268: \x85                 TUPLE1
+  269: \x94                 MEMOIZE    (as 27)
+  270: \x8c                 SHORT_BINUNICODE 'order'
+  277: \x94                 MEMOIZE    (as 28)
+  278: \x8c                 SHORT_BINUNICODE 'C'
+  281: \x94                 MEMOIZE    (as 29)
+  282: \x8c                 SHORT_BINUNICODE 'dtype'
+  289: \x94                 MEMOIZE    (as 30)
+  290: h                    BINGET     23
+  292: \x8c                 SHORT_BINUNICODE 'dtype'
+  299: \x94                 MEMOIZE    (as 31)
+  300: \x93                 STACK_GLOBAL
+  301: \x94                 MEMOIZE    (as 32)
+  302: \x8c                 SHORT_BINUNICODE 'O8'
+  306: \x94                 MEMOIZE    (as 33)
+  307: \x89                 NEWFALSE
+  308: \x88                 NEWTRUE
+  309: \x87                 TUPLE3
+  310: \x94                 MEMOIZE    (as 34)
+  311: R                    REDUCE
+  312: \x94                 MEMOIZE    (as 35)
+  313: (                    MARK
+  314: K                        BININT1    3
+  316: \x8c                     SHORT_BINUNICODE '|'
+  319: \x94                     MEMOIZE    (as 36)
+  320: N                        NONE
+  321: N                        NONE
+  322: N                        NONE
+  323: J                        BININT     -1
+  328: J                        BININT     -1
+  333: K                        BININT1    63
+  335: t                        TUPLE      (MARK at 313)
+  336: \x94                 MEMOIZE    (as 37)
+  337: b                    BUILD
+  338: \x8c                 SHORT_BINUNICODE 'allow_mmap'
+  350: \x94                 MEMOIZE    (as 38)
+  351: \x89                 NEWFALSE
+  352: \x8c                 SHORT_BINUNICODE 'numpy_array_alignment_bytes'
+  381: \x94                 MEMOIZE    (as 39)
+  382: K                    BININT1    16
+  384: u                    SETITEMS   (MARK at 226)
+  385: b                BUILD
+  386: \x80             PROTO      5
+  388: \x95             FRAME      282
+  397: \x8c             SHORT_BINUNICODE 'numpy._core.multiarray'
+  421: \x94             MEMOIZE    (as 40)
+  422: \x8c             SHORT_BINUNICODE '_reconstruct'
+  436: \x94             MEMOIZE    (as 41)
+  437: \x93             STACK_GLOBAL
+  438: \x94             MEMOIZE    (as 42)
+  439: \x8c             SHORT_BINUNICODE 'numpy'
+  446: \x94             MEMOIZE    (as 43)
+  447: \x8c             SHORT_BINUNICODE 'ndarray'
+  456: \x94             MEMOIZE    (as 44)
+  457: \x93             STACK_GLOBAL
+  458: \x94             MEMOIZE    (as 45)
+  459: K                BININT1    0
+  461: \x85             TUPLE1
+  462: \x94             MEMOIZE    (as 46)
+  463: C                SHORT_BINBYTES b'b'
+  466: \x94             MEMOIZE    (as 47)
+  467: \x87             TUPLE3
+  468: \x94             MEMOIZE    (as 48)
+  469: R                REDUCE
+  470: \x94             MEMOIZE    (as 49)
+  471: (                MARK
+  472: K                    BININT1    1
+  474: K                    BININT1    5
+  476: \x85                 TUPLE1
+  477: \x94                 MEMOIZE    (as 50)
+  478: h                    BINGET     3
+  480: \x8c                 SHORT_BINUNICODE 'dtype'
+  487: \x94                 MEMOIZE    (as 51)
+  488: \x93                 STACK_GLOBAL
+  489: \x94                 MEMOIZE    (as 52)
+  490: \x8c                 SHORT_BINUNICODE 'O8'
+  494: \x94                 MEMOIZE    (as 53)
+  495: \x89                 NEWFALSE
+  496: \x88                 NEWTRUE
+  497: \x87                 TUPLE3
+  498: \x94                 MEMOIZE    (as 54)
+  499: R                    REDUCE
+  500: \x94                 MEMOIZE    (as 55)
+  501: (                    MARK
+  502: K                        BININT1    3
+  504: \x8c                     SHORT_BINUNICODE '|'
+  507: \x94                     MEMOIZE    (as 56)
+  508: N                        NONE
+  509: N                        NONE
+  510: N                        NONE
+  511: J                        BININT     -1
+  516: J                        BININT     -1
+  521: K                        BININT1    63
+  523: t                        TUPLE      (MARK at 501)
+  524: \x94                 MEMOIZE    (as 57)
+  525: b                    BUILD
+  526: \x89                 NEWFALSE
+  527: ]                    EMPTY_LIST
+  528: \x94                 MEMOIZE    (as 58)
+  529: (                    MARK
+  530: \x8c                     SHORT_BINUNICODE 'EmpEnvironmentSatisfaction'
+  558: \x94                     MEMOIZE    (as 59)
+  559: \x8c                     SHORT_BINUNICODE 'EmpLastSalaryHikePercent'
+  585: \x94                     MEMOIZE    (as 60)
+  586: \x8c                     SHORT_BINUNICODE 'ExperienceYearsInCurrentRole'
+  616: \x94                     MEMOIZE    (as 61)
+  617: \x8c                     SHORT_BINUNICODE 'ExperienceYearsAtThisCompany'
+  647: \x94                     MEMOIZE    (as 62)
+  648: \x8c                     SHORT_BINUNICODE 'YearsSinceLastPromotion'
+  673: \x94                     MEMOIZE    (as 63)
+  674: e                        APPENDS    (MARK at 529)
+  675: t                    TUPLE      (MARK at 471)
+  676: \x94             MEMOIZE    (as 64)
+  677: b                BUILD
+  678: .                STOP
+highest protocol among opcodes = 4
